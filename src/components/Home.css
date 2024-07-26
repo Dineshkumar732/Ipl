@@ -1,0 +1,44 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-title {
+    font-size: 36px;
+    color: #f7db00;
+    margin-bottom: 20px;
+  }
+  
+  .teams-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-card {
+    background-color: #0f172a;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .team-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .team-logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .team-name {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  

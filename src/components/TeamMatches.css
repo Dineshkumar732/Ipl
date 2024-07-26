@@ -1,0 +1,52 @@
+.team-matches-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .team-banner {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .latest-match-title,
+  .recent-matches-title {
+    font-size: 24px;
+    color: #f7db00;
+    margin: 20px 0;
+  }
+  
+  .latest-match,
+  .recent-matches {
+    margin-bottom: 20px;
+  }
+  
+  .match-detail {
+    margin: 5px 0;
+    color: #ffffff;
+  }
+  
+  .match-detail span {
+    font-weight: bold;
+    color: #18ed66;
+  }
+  
+  .competing-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .competing-team img {
+    width: 50px;
+  }
+  
+  .recent-match-card {
+    background-color: #0f172a;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
